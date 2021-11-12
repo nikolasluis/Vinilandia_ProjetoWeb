@@ -1,0 +1,126 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #07090F;
+}
+
+.ret_slogan {
+	width: 1600px;
+	height: 30px;
+	background-color: #E8AE68;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.estilo_slogan {
+	font-family: "Quicksand";
+	font-style: italic;
+	font-size: medium;
+	color: #161925;
+	position: absolute;
+	top: -12px;
+	left: 635px;
+}
+
+.ret_menu {
+	width: 1600px;
+	height: 100px;
+	background-color: #2D3142;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+.menu {
+	width: 500px;
+	height: 75px;
+	position: absolute;
+	top: 55px;
+	left: 565px;
+}
+
+.menu a {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-size: large;
+	background-color: #2D3142;
+	color: #FFFFFB;
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+}
+
+.menu a:hover {
+	border-bottom: 1px solid #E8AE68;
+}
+
+.pos_icon01 {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 60px;
+	left: 150px;
+}
+
+.estilo_nome {
+	font-family: "Cherry Swash";
+	font-style: normal;
+	font-size: x-large;
+	color: #E8AE68;
+	position: absolute;
+	top: 40px;
+	left: 210px;
+}
+
+.pesquisar {
+	resize: none;
+	overflow-y: hidden;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 175px;
+	height: 30px;
+	color: FFFFFB;
+	background-color: #161925;
+	border: solid 1px;
+	border-radius: 5px;
+	border-color: #161925;
+	font-family: 'Quicksand';
+	font-size: small;
+	position: absolute;
+	top: 70px;
+	left: 975px;
+}
+
+.pos_icon02 {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 70px;
+	left: 1165px;
+	cursor: pointer;
+}
+
+.pos_icon03 {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 70px;
+	left: 1240px;
+	cursor: pointer;
+}
+
+.pos_icon04 {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 70px;
+	left: 1315px;
+	cursor: pointer;
+}
