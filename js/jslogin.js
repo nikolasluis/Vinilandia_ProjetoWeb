@@ -84,7 +84,7 @@ function validacaoLogin(){
 	carrinho=[[]];
 	storage.setItem("carrinho",JSON.stringify(carrinho));
 
-	window.location.href = document.location="http://localhost/vinilandia/index.html";
+	window.location.href = document.location="http://localhost/vinilandia_projetoweb/index.html";
 }
 
 function senhas(){
