@@ -1,0 +1,19 @@
+.estilo_text1 {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-size: 50px;
+	color: #E8AE68;
+	position: absolute;
+	top: 40%;
+	left: 350px;
+}
+
+.estilo_text2 {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-size: 40px;
+	color: #E8AE68;
+	position: absolute;
+	top: 55%;
+	left: 475px;
+}
