@@ -1,0 +1,74 @@
+.pos_img_disco {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 200px;
+	left: 91px;
+}
+
+.estilo_mus {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-size: medium;
+	color: #E8AE68;
+	position: absolute;
+	top: 220px;
+	left: 575px;
+}
+
+.estilo_info {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-size: larger;
+	color: #E8AE68;
+	position: absolute;
+	top: 250px;
+	left: 1000px;
+}
+
+
+.button_adicionar_sacola:hover {
+	background-color: #4A7856;
+}
+
+.estilo_resumo {
+	font-family: "Quicksand";
+	font-style: normal;
+	font-size: medium;
+	margin-right: 91px;
+	color: #FFFFFB;
+	position: absolute;
+	top: 525px;
+	left: 91px;
+}
+
+.coisas2{
+	position: absolute;
+	top: 375px;
+	left: 1000px;
+	color: #FFFFFB;
+	font-family: 'Quicksand';
+	font-size: medium;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #1E3F20;
+	border: none;
+	text-align:center;
+
+}
+
+.button_adicionar_sacola {
+	background-color: #1E3F20;
+	color: #FFFFFB;
+	width: 200px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-family: 'Quicksand';
+	font-size: medium;
+}
