@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="../css/csscadastro.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="../css/cssallpages.css" media="screen"/>
+		<script type="text/javascript" src="../js/jscadastro.js"> </script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cherry+Swash">
+		<link rel="icon" href="../img/favicon01.png"/>
+		<title> Cadastro </title>
+	</head>
+
+	<body>
+		<div class="ret_slogan"> </div>
+		<p class="estilo_slogan"> </p>
+
+		<div class="ret_menu"> </div>
+		<img class="pos_icon01" src="../img/icon01.png">
+		<p class="estilo_nome"> Vinilândia </p>
+
+		<div class="menu">
+			<a href="http://localhost/vinilandia_projetoweb/index.html"> Home </a>
+			<a href="#"> Gêneros </a>
+			<a href="#"> Lançamentos </a>
+		</div>
+
+		<textarea class="pesquisar"> </textarea>
+		<img class="pos_icon02" src="../img/icon02.png">
+		<img class="pos_icon03" src="../img/icon03.png" id="img_login" onclick="pag_login01()">
+		<img class="pos_icon04" src="../img/icon04.png" id="img_sacola" onclick="pag_sacola()">
+
+		<p class="estilo_cadastro"> Cadastro </p>
+
+		<table border="0" cellpadding="10" class="table">
+			<tr>
+				<td width="40%"> Usuário </td>
+				<td> <img src="../img/icon05.png" width="40" height="40"> </td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<form name="carinha">
+						<input class="field" type="text" placeholder="Usuário" id="usuario">
+					</form> 
+				</td>
+			</tr>
+			<tr>
+				<td> E-mail </td>
+				<td> <img src="../img/icon07.png" width="40" height="40"> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> 
+					<form name="confirmationEmail">
+						<input class="field" type="text" placeholder="E-mail" id="email"> 
+					</form>
+				</td>
+			</tr>
+			<tr>
+				<td> Senha </td>
+				<td> <img src="../img/icon06.png" width="40" height="40"> </td>
+			</tr>
+			<tr>
+				<td colspan="2"> <input class="field" type="password" placeholder="Senha" id="senha"> </td>
+			</tr>
+			<tr>
+				<td> Confirme sua senha </td>
+				<td> <img src="../img/icon06.png" width="40" height="40"> </td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<form  name="senhazinha">
+						<input class="field" type="password" placeholder="Confirme sua senha" id="confirmarSenha"> 
+					</form> 
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="2">
+					<div id="msg" class="mensagem"></div>
+				</td>
+			</tr>
+
+		</table>
+
+		<button class="register_button" onclick="cadastrar()"> Criar conta </button>
+
+		<p class="estilo_go_to_login"> Já possui uma conta? Faça login! </p>
+		<button class="go_to_login_button" id="b_login" onclick="pag_login02()"> Login </button>
+	</body>
+</html>
