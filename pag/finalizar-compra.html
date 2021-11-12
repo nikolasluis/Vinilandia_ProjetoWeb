@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="../css/cssfinalizar.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="../css/cssallpages.css" media="screen"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cherry+Swash">
+		<link rel="icon" href="../img/favicon01.png"/>
+		<script type="text/javascript" src="../js/jsfinalizar.js"></script>
+		<title> Finalizar compra </title>
+	</head>
+
+	<body>
+		<div class="ret_slogan"> </div>
+		<p class="estilo_slogan"> </p>
+
+		<div class="ret_menu"> </div>
+		<img class="pos_icon01" src="../img/icon01.png">
+		<p class="estilo_nome"> Vinilândia </p>
+
+		<div class="menu">
+			<a href="http://localhost/vinilandia_projetoweb/index.html"> Home </a>
+			<a href="#"> Gêneros </a>
+			<a href="#"> Lançamentos </a>
+		</div>
+
+		<textarea class="pesquisar"> </textarea>
+		<img class="pos_icon02" src="../img/icon02.png">
+		<img class="pos_icon03" src="../img/icon03.png" onclick="pag_login()" id="img_login">
+		<img class="pos_icon04" src="../img/icon04.png" id="img_sacola" onclick="pag_sacola()">
+
+		<p class="estilo_finalizar"> Finalizar compra </p>
+
+		<table class="table" cellspacing="10px">
+			<tr>
+				<td rowspan="2"> Método de pagamento </td>
+				<td> <input type="radio" name="method" value="credit" id="credit"/> Cartão de crédito </td>
+			</tr>
+			<tr>
+				<td> <input type="radio" name="method" value="debit" id="debit"/> Cartão de débito </td>
+			</tr>
+			<tr>
+				<td> CPF </td>
+				<td> <input class="field" type="text" placeholder="CPF" id="cpf"/> </td>
+			</tr>
+			<tr>
+				<td> Nome do titular </td>
+				<td> <input class="field" type="text" placeholder="Nome do titular" id="nome"/> </td>
+			</tr>
+			<tr>
+				<td> Número do cartão </td>
+				<td> <input class="field" type="text" placeholder="Número do cartão" id="numero"/> </td>
+			</tr>
+			<tr>
+				<td> Data de vencimento </td>
+				<td> <input class="field" type="text" placeholder="Data de vencimento" id="data"/> </td>
+			</tr>
+			<tr>
+				<td> Código CVV </td>
+				<td> <input class="field" type="text" placeholder="Código CVV" id="codigo"/> </td>
+			</tr>
+		</table>
+
+		<button class="estilo_button" onclick="finalizar()"> Finalizar </button>
+	</body>
+</html>
